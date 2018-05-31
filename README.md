@@ -24,3 +24,8 @@
 * git reflog
 * git rm
 * git diff 
+
+=============================
+
+* git checkout -b 分支名  ---> 相对于 git branch 分支名 和 git checkout 分支名
+* git branch 查看当前分支，列出所有分支，当前分支前面会标一个\*号。
