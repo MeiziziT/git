@@ -2,7 +2,7 @@
 
 * git init 
 * git clone
- ============================
+============================
 * git add 文件名
 * git add .
 * git commit -m "备注"
