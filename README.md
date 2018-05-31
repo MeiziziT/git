@@ -34,11 +34,15 @@
 * git merge `合并某分支到当前分支`
 * git branch -d 分支名 `删除分支`
 
-<<<<<<< HEAD
-Creating a new branch is quick & simple
-=======
+
 ## 解决冲突
 
 =============================
 
->>>>>>> feature1
+·Fast forward· `快速合并` 
+·--no-ff· `禁用Fast forward模式`
+```javascript
+	git merge --no-ff -m "merge with no-ff" dev
+```
+* git log --graph `可以看到分支合并图`
+
