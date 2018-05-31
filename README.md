@@ -34,4 +34,11 @@
 * git merge `合并某分支到当前分支`
 * git branch -d 分支名 `删除分支`
 
+<<<<<<< HEAD
 Creating a new branch is quick & simple
+=======
+## 解决冲突
+
+=============================
+
+>>>>>>> feature1
