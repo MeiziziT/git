@@ -15,4 +15,4 @@
 * git checkout -- 文件名
 * git push -u origin master
 * git push
-* git push  
+* git remote add origin [ssh地址]  
