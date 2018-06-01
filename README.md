@@ -76,4 +76,22 @@ _--no-ff_  `禁用Fast forward模式,如果要强制禁用Fast forward模式，G
 > rebase 操作可以把本地未push分叉提交历史整理成直线；
 > rebase 的目的是使我们在查看历史提交的变化是更容易，因为分叉的提交需要三方对比
 	
+> tag 
 
+* git tag `<标签名字>` `创建单个标签，默认HEAD,也可以提供一个commit ID ` 
+* git tag `<commit ID>`     
+* git tag `可以查看所有标签`
+* git show `<tagName>` `查看<tagName>标签的信息` 
+* git  tag -a `<标签名字>` -m `<便签描述>`  `commit ID`   `<-a> 指定标签名字，<-m> 说明文字`
+
+> 删除便签 
+<small>创建的标签都只存储在本地，不会自动推送到远程。所以，打错的标签可以在本地安全删除。<small>
+
+
+* git push origin <tagname>  `可以推送一个本地标签；`
+
+* git push origin --tags `可以推送全部未推送过的本地标签；`
+
+* git tag -d <tagname> `可以删除一个本地标签；`
+
+* git push origin :refs/tags/<tagname> `可以删除一个远程标签。`
