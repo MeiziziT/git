@@ -69,4 +69,6 @@ _--no-ff_  `禁用Fast forward模式,如果要强制禁用Fast forward模式，G
 > rebase 
 
 * git rebase `变基`
+> rebase 操作可以把本地未push分叉提交历史整理成直线；
+> rebase 的目的是使我们在查看历史提交的变化是更容易，因为分叉的提交		需要三方对比
 	
