@@ -21,6 +21,7 @@
 * git status 
 * git log 
 * git log --pretty=oneline
+* git log --graph  --pretty=oneline --abbrev-commit
 * git reflog
 * git rm
 * git diff 
