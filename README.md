@@ -56,6 +56,7 @@ _--no-ff_  `禁用Fast forward模式,如果要强制禁用Fast forward模式，G
 * git stash pop `恢复存储的工作，也删除stash内容`
 
 
+hello
 
 * git remote `查看远程库的信息`
 * git remote -v  `查看远程库的详情信息 ` 
