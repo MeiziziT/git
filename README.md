@@ -33,6 +33,7 @@
 * git branch `查看当前分支，列出所有分支，当前分支前面会标一个\*号。`
 * git merge `合并某分支到当前分支`
 * git branch -d 分支名 `删除分支`
+* git branch -D 分支名 `强行删除分支`
 
 
 
@@ -40,7 +41,7 @@
 
 _Fast forward_· `快速合并,，但这种模式下，删除分支后，会丢掉分支信息` 
 
-_--no-ff_ `禁用Fast forward模式,如果要强制禁用Fast forward模式，Git就会在merge时生成一个新的commit，这样，从分支历史上就可以看出分支信息。`
+_--no-ff_  `禁用Fast forward模式,如果要强制禁用Fast forward模式，Git就会在merge时生成一个新的commit，这样，从分支历史上就可以看出分支信息。`
 
 ```javascript
 	git merge --no-ff -m "merge with no-ff" dev
@@ -56,4 +57,6 @@ _--no-ff_ `禁用Fast forward模式,如果要强制禁用Fast forward模式，Gi
 
 
 
+* git remote `查看远程库的信息`
+* git remote -v  `查看远程库的详情信息 ` 
 
