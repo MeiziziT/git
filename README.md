@@ -35,12 +35,12 @@
 * git branch -d 分支名 `删除分支`
 
 
-## 解决冲突
 
 =============================
 
-·Fast forward· `快速合并,，但这种模式下，删除分支后，会丢掉分支信息` 
-·--no-ff· `禁用Fast forward模式,如果要强制禁用Fast forward模式，Git就会在merge时生成一个新的commit，这样，从分支历史上就可以看出分支信息。`
+_Fast forward_· `快速合并,，但这种模式下，删除分支后，会丢掉分支信息` 
+
+_--no-ff_ `禁用Fast forward模式,如果要强制禁用Fast forward模式，Git就会在merge时生成一个新的commit，这样，从分支历史上就可以看出分支信息。`
 
 ```javascript
 	git merge --no-ff -m "merge with no-ff" dev
@@ -48,9 +48,12 @@
 * git log --graph `可以看到分支合并图`
 
 
+* git stash  `可以把当前工作存储起来，等以后恢复现场继续工作`
+* git stash list `查看存储的工作`
+* git stash apply `恢复存储的工作，但不删除stash内容`
+* git stash drop `删除stash内容`
+* git stash pop `恢复存储的工作，也删除stash内容`
 
 
 
 
-
-Git is free software
