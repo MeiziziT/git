@@ -65,3 +65,6 @@ _--no-ff_  `禁用Fast forward模式,如果要强制禁用Fast forward模式，G
 * 
 
 * git checkout -b `分支名` origin/`分支名`  `在本地创建和远程分支对应的分支，本地和远程分支的名称最好一致`
+
+
+今天周五，要放假了
