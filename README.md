@@ -60,3 +60,7 @@ _--no-ff_  `禁用Fast forward模式,如果要强制禁用Fast forward模式，G
 * git remote `查看远程库的信息`
 * git remote -v  `查看远程库的详情信息 ` 
 
+* 如果git pull提示 `notacking information`
+* git branch --set-upsteam-to `分支名` origin `分支名`  `创建本地分支和远程分支的链接关系`
+* 
+
